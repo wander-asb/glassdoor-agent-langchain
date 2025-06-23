@@ -1,0 +1,4 @@
+langchain_together 
+python-dotenv
+linkedin-api
+tiktoken
