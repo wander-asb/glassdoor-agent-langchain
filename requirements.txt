@@ -1,4 +1,6 @@
 langchain_together 
 python-dotenv
-linkedin-api
+playwright
 tiktoken
+flask
+gunicorn
