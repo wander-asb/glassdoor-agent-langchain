@@ -42,3 +42,17 @@ Dado um `job_title`, o sistema:
 ```bash
 git clone https://github.com/seu-usuario/glassdoor-agent-langchain.git
 cd glassdoor-agent-langchain
+```
+### 3. Build e execução com Docker
+```bash
+docker build -t job-analyzer-api .
+docker run -p 8080:8080 job-analyzer-api
+```
+### 4. Testes com Postman
+```bash
+POST /analisar
+Content-Type: application/json
+```
+
+![Exemplo Postman](https://github.com/user-attachments/assets/c444f0af-1f12-42cb-8194-8c6740271cf9)
+
